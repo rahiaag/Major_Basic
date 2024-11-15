@@ -17,23 +17,20 @@ const Navbar = ({ onLogout }) => {
         <h2><FaBookReader /> PREP TALK</h2>
       </div>
       <ul className="navbar-menu">
+      <li>
+          <Link to="/interview-preparation">Interview Preparation</Link>
+        </li> 
+        
+       
+        <li>
+          <Link to="/news">News</Link>
+        </li>
+       
         <li>
           <Link to="/">Mentorships</Link>
         </li>
         <li>
-          <Link to="/trending">Trending</Link>
-        </li>
-        <li>
-          <Link to="/news">News</Link>
-        </li>
-        <li>
-          <Link to="/faq">FAQ</Link>
-        </li>
-        <li>
-          <Link to="/interview-preparation">Interview Preparation</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
+          <Link to="/AboutUs">About</Link>
         </li>
       </ul>
       <div className="navbar-login">

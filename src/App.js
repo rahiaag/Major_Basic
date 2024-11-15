@@ -1,14 +1,12 @@
-import React, { useState } from 'react';  // Ensure this line is present
+import React, { useState } from 'react'; 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MentorList from './components/MentorList';
 import MentorProfile from './components/MentorProfile';
-import Trending from './components/Trending';
-import News from './components/News';
-import FAQ from './components/FAQ';
 import InterviewPreparation from './components/InterviewPreparation';
-import About from './components/About';
+import AboutUs from './components/AboutUs';
 import mentorsData from './components/mentorsData.json';
+import Newsapp from './components/Newsapp';
 import './App.css';
 
 function App() {
@@ -61,26 +59,27 @@ function App() {
       <Navbar />
       <div className="app-container">
         <Routes>
-          <Route path="/" element={<MentorList mentors={filteredMentors} onMentorSelect={setSelectedMentor} />} />
-          <Route path="/trending" element={<Trending />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route
+            path="/"
+            element={
+              <div className="mentor-container">
+                <div className="mentor-list-container">
+                  <MentorList mentors={filteredMentors} onMentorSelect={setSelectedMentor} />
+                </div>
+                <div className="mentor-profile-container">
+                  {selectedMentor ? (
+                    <MentorProfile mentor={selectedMentor} />
+                  ) : (
+                    <div>Select a mentor to see their profile</div>
+                  )}
+                </div>
+              </div>
+            }
+          />
+          <Route path="/news" element={<Newsapp />} />
           <Route path="/interview-preparation" element={<InterviewPreparation />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
-
-        <div className="mentor-container">
-          <div className="mentor-list-container">
-            <MentorList mentors={filteredMentors} onMentorSelect={setSelectedMentor} />
-          </div>
-          <div className="mentor-profile-container">
-            {selectedMentor ? (
-              <MentorProfile mentor={selectedMentor} />
-            ) : (
-              <div>Select a mentor to see their profile</div>
-            )}
-          </div>
-        </div>
       </div>
     </Router>
   );

@@ -1,0 +1,57 @@
+/* MentorCard.css */
+.mentor-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 16px;
+  max-width: 600px; /* Optional: Set a max width for better readability */
+} 
+
+.mentor-photo-container {
+  width: 33%; /* Image takes one-third of the card */
+  padding-right: 16px;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.mentor-photo {
+  width: 80px; /* Set a fixed width for the image */
+  height: 80px; /* Fixed height for the circular image */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fills the circle without distortion */
+}
+
+.mentor-info {
+  width: 67%; /* The remaining two-thirds of the card */
+}
+
+.mentor-info h2 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+.mentor-info p {
+  margin: 4px 0;
+}
+
+.availability-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.available {
+  background-color: #4caf50; /* Green for available */
+}
+
+.unavailable {
+  background-color: #f44336; /* Red for unavailable */
+}

@@ -1,0 +1,36 @@
+.mentor-layout {
+  display: flex;
+  padding: 20px;
+}
+
+.mentor-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.mentor-list-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.mentor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mentor-card-wrapper {
+  cursor: pointer;
+}
+
+.mentor-details-view {
+  flex: 1;
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+}
+
+.mentor-details-view p {
+  text-align: center;
+}

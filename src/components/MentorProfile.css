@@ -1,0 +1,14 @@
+.mentor-profile {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.mentor-profile h2 {
+  margin-top: 0;
+}
+
+.mentor-profile p {
+  margin-bottom: 10px;
+}

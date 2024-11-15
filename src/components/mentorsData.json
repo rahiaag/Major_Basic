@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Shiri Agarwal",
+    "domain": "Business And Management",
+    "experience": 5,
+    "rating": 4.9,
+    "availability": true,
+    "photo": "teacher1.jpg", 
+    "description": "Shiri is an expert in business management with over 5 years of experience helping startups grow.",
+    "linkedin": "https://linkedin.com/in/shiriagarwal",
+    "twitter": "https://twitter.com/shiriagarwal",
+    "github": "https://github.com/shiriagarwal"
+  },
+  {
+    "name": "Shubham Kumar",
+    "domain": "Software Development",
+    "experience": 4,
+    "rating": 4.8,
+    "availability": false,
+    "photo": "teacher4.jpg",
+    "description": "Shubham specializes in full-stack development and has worked with various technologies.",
+    "linkedin": "https://linkedin.com/in/shubhamkumar",
+    "twitter": "https://twitter.com/shubhamkumar",
+    "github": "https://github.com/shubhamkumar"
+  },
+  {
+    "name": "Aisha Verma",
+    "domain": "Data Science",
+    "experience": 3,
+    "rating": 4.7,
+    "availability": true,
+    "photo": "teacher2.jpg",
+    "description": "Aisha has a strong background in data analysis and machine learning.",
+    "linkedin": "https://linkedin.com/in/aishaverma",
+    "twitter": "https://twitter.com/aishaverma",
+    "github": "https://github.com/aishaverma"
+  },
+  {
+    "name": "Vidhya Sharma",
+    "domain": "Software Engineering",
+    "experience": 4,
+    "rating": 4.6,
+    "availability": true,
+    "photo": "teacher11.jpg",
+    "description": "Vidhya is a software engineer with experience in both front-end and back-end technologies.",
+    "linkedin": "https://linkedin.com/in/vidhyasharma",
+    "twitter": "https://twitter.com/vidhyasharma",
+    "github": "https://github.com/vidhyasharma"
+  },
+  {
+    "name": "Ravi Sharma",
+    "domain": "Artificial Intelligence",
+    "experience": 6,
+    "rating": 4.9,
+    "availability": true,
+    "photo": "teacher5.jpg",
+    "description": "Ravi is an AI expert with over 6 years of experience building intelligent systems and algorithms.",
+    "linkedin": "https://linkedin.com/in/ravisharma",
+    "twitter": "https://twitter.com/ravisharma",
+    "github": "https://github.com/ravisharma"
+  },
+  {
+    "name": "Neha Patel",
+    "domain": "Cybersecurity",
+    "experience": 4,
+    "rating": 4.6,
+    "availability": false,
+    "photo": "teacher6.jpg",
+    "description": "Neha specializes in network security and has worked with Fortune 500 companies to secure their data.",
+    "linkedin": "https://linkedin.com/in/nehapatel",
+    "twitter": "https://twitter.com/nehapatel",
+    "github": "https://github.com/nehapatel"
+  },
+  {
+    "name": "Ankit Singh",
+    "domain": "Cloud Computing",
+    "experience": 5,
+    "rating": 4.8,
+    "availability": true,
+    "photo": "teacher7.jpg",
+    "description": "Ankit has expertise in cloud technologies, having worked with AWS and Azure for over 5 years.",
+    "linkedin": "https://linkedin.com/in/ankitsingh",
+    "twitter": "https://twitter.com/ankitsingh",
+    "github": "https://github.com/ankitsingh"
+  },
+  {
+    "name": "Priya Soni",
+    "domain": "Mobile App Development",
+    "experience": 4,
+    "rating": 4.5,
+    "availability": true,
+    "photo": "teacher8.jpg",
+    "description": "Priya is a mobile app developer with a passion for creating smooth, user-friendly apps for iOS and Android.",
+    "linkedin": "https://linkedin.com/in/priyasoni",
+    "twitter": "https://twitter.com/priyasoni",
+    "github": "https://github.com/priyasoni"
+  },
+  {
+    "name": "Vikram Mehra",
+    "domain": "Product Management",
+    "experience": 7,
+    "rating": 5.0,
+    "availability": true,
+    "photo": "teacher9.jpg",
+    "description": "Vikram has been a product manager for over 7 years, specializing in building and scaling successful products.",
+    "linkedin": "https://linkedin.com/in/vikramehra",
+    "twitter": "https://twitter.com/vikramehra",
+    "github": "https://github.com/vikramehra"
+  },
+  {
+    "name": "Simran Kaur",
+    "domain": "Digital Marketing",
+    "experience": 5,
+    "rating": 4.7,
+    "availability": false,
+    "photo": "teacher10.jpg",
+    "description": "Simran has worked with various brands in optimizing their digital presence through social media and SEO strategies.",
+    "linkedin": "https://linkedin.com/in/simrankaur",
+    "twitter": "https://twitter.com/simrankaur",
+    "github": "https://github.com/simrankaur"
+  }
+]
